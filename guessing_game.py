@@ -48,7 +48,7 @@ def start_game():
 
                 attempts += 1
         except ValueError as err:
-            print("Oh no!, that is not a valid value. Try again...")
+            print("Oh no!, that is not a valid value. Try again!!!")
             print("({})".format(err))
     else:
         print("That's cool, have a good one!")
