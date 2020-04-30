@@ -41,10 +41,10 @@ def start_game():
                     print("That's cool, have a good one!")
                     break
             elif int(guess) > random_number:
-                print("It's higher")
+                print("It's lower")
                 attempts += 1
             elif int(guess) < random_number:
-                print("It's lower")
+                print("It's higher")
 
                 attempts += 1
         except ValueError as err:
